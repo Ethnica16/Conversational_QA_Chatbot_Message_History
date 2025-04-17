@@ -1,1 +1,2 @@
 # Conversational_QA_Chatbot_Message_History
+This is conversational Q&A Chatbot that allows the user to have a back-and-forth conversation with the bot. This application uses GROQ API and Llama3 model to answer questions. HuggingFace tokens were used for embeddings. This Q&A Chatbot loads, chunkc and index content to create a retriever. Chains were used to combine the LLM, prompt and response together. The chatbot also stores chat history in RAG chains.
